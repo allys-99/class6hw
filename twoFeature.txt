@@ -1,0 +1,45 @@
+
+# This is the pseudocode for 1 A, B, C, E & 2
+# Wine dataset
+
+import os, numpy, matplotlib & pandas
+
+function main
+    load the wine dataset
+    get the summary statistics
+    plot the graphs
+
+function load the dataset
+   load the wine data into a dataframe, there are no headers
+   set the column names in the table
+   return the dataframe
+
+function get summary statistics(parameter table)
+    use the dataframe function for mean and standard deviation
+    to calculate the values for each feature/column
+
+function organize the dataset for plotting(parameter table)
+    get all the rows of cultivator 1
+    get all the rows of cultivator 2
+    get all the rows of cultivator 3
+    for a feature1
+        get a row from cultivator 1 for this feature1
+        get a row from cultivator 2 for this feature1
+        get a row from cultivator 3 for this feature1
+	for the next feature2
+            get a row from cultivator 1 for this feature2
+            get a row from cultivator 2 for this feature2
+            get a row from cultivator 3 for this feature2
+	    plot a graph for the 3 cultivators and 2 features
+
+function draw the scatter plot graph(parameters of cultivators and features)
+    set the x-axis name(feature1)
+    set the y-axis name(feature2)
+    set the title of the graph feature1 vs feature2
+    plot a scatter graph of cultivator1 feature1 & feature2 (in color1 marker1)
+    plot a scatter graph of cultivator2 feature1 & feature2 (in color2 marker2)
+    plot a scatter graph of cultivator3 feature1 & feature2 (in color3 marker3)
+    set the legend
+    show the graph
+    save the graph to a filename
+

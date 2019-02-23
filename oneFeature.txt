@@ -1,0 +1,39 @@
+
+# This is the pseudo code for 1 A B C & D
+
+
+import the libraries os, numpy matplotlib & pandas
+
+a main function
+    load the wine dataset and store it in a variable
+    get the summary statistics on the table
+    plot the single features in a histogram
+
+function load the data set
+    use dataframe to read in the file into a table
+    add the column header to the dataframe table
+    return the dataframe
+
+function get the summary statistics(parameter table dataframe)
+    use the builtin mean and standard deviation functions of 
+    the dataframe to print out the mean and standard deviation
+    of each feature/column
+
+function to organize the data set (parameter table dataframe)
+    get all the rows of cultivator 1
+    get all the rows of cultivator 2
+    get all the rows of cultivator 3
+    for each feature 
+        plot a histogram for cultivator 1, 2 & 3
+
+function to plot a histogram(parameter cultivators tables and feature
+    set the name on the y axis
+    set the name on the x axis
+    set a title for the histogram
+    set the legend for the histogram
+    draw a histogram for cultivator 1, cultivator 2, cultivator 3
+    set the legend
+    retrieve the figure set by the histogram
+    draw the figure
+    show the figure
+    save the figure to a file

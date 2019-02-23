@@ -1,0 +1,53 @@
+# This is the pseudocode for 3 features
+
+import the libraries os, numpy, mpl_toolkits.mplot3d, matplotlib.pyplot & pandas
+
+function main
+    load the dataset
+    get the summary statistics
+    plot the graphs
+
+function load the dataset
+    read in the file into a dataframe
+    manuall add the column headers (as they are not present in the file)
+
+function get summary statistics
+    use the dataframe mean function and standard deviation function to
+    calculate the mean and standard deviation
+
+function organize the dataset for plotting
+    get all rows of the cultivators 1
+    get all rows of the cultivators 2
+    get all rows of the cultivators 3
+    for feature 1
+        get the columns of cultivator 1
+        get the columns of cultivator 2
+        get the columns of cultivator 3
+	for feature 2
+            get the columns of cultivator 1
+            get the columns of cultivator 2
+            get the columns of cultivator 3
+	    for feature 3
+                get the columns of cultivator 1
+                get the columns of cultivator 2
+                get the columns of cultivator 3
+		Plot the 3D figure
+
+function Plot the 3D figure(cultivators 1 2 3 with features 1 2 3)
+    reset the index on the tables that were extrated from the dataset
+    create the 3D variable
+    for cultivator1 and features 1,2,3
+        plot a scatter point on the figure
+    for cultivator2 and features 1,2,3
+        plot a scatter point on the figure
+    for cultivator3 and features 1,2,3
+        plot a scatter point on the figure
+    set the x-axis name
+    set the y-axis name
+    set the z-axis name
+    set the legend
+    set the title
+    show the figure
+    save the figure to a file
+
+    
